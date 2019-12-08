@@ -1,0 +1,8 @@
+{
+    "verbose": true,
+    "ignore": ["*.test.js", "fixtures/*"],
+    "watch": ["src/*", "server.js"],
+    "execMap": {
+      "js": "sucrase-node server.js --transforms imports"
+    }
+}
