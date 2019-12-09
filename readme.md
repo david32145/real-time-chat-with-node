@@ -5,13 +5,13 @@ The project is simple, the user select an nick name and can send messages for al
 
 # Demostration
 
-[Image1](./prints/image1)
-[Image2](./prints/image2)
-[Image3](./prints/image3)
-[Image4](./prints/image4)
-[Image5](./prints/image5)
-[Image6](./prints/image6)
-[Image7](./prints/image7)
+[Image1](prints/image1)
+[Image2](prints/image2)
+[Image3](prints/image3)
+[Image4](prints/image4)
+[Image5](prints/image5)
+[Image6](prints/image6)
+[Image7](prints/image7)
 
 # Technologies
 
