@@ -11,7 +11,8 @@ class MessageController {
     // Writer an new message
     async store(req, res) {
         const { owner, message } = req.body
-        await Message.create({owner, message})
+        const data = await Message.create({owner, message})
+        req.io.emit('broadcast', data)
         return res.status(201).send()
     }
 }
